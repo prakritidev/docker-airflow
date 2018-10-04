@@ -6,6 +6,16 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/puckel/docker-airflow.svg)]()
 [![Docker Stars](https://img.shields.io/docker/stars/puckel/docker-airflow.svg)]()
 
+
+# Added S3,awscli,kubernetes to docker Image
+
+I was not able to save my logs to aws S3 for my personal project and added mentioned feature to the docker image, however I did not upload the image to dockerhub. If you want to use docker-compose, it will use the default image uploaded by puckel. I will add some more in future. 
+
+# How to store logs to S3
+
+You can store your credentials to the default ~/.aws/credentials or, you can use Airfloe GUI-> connections -> new connnection, or change the conf file. For me only storing my credentials to the default directory worked not sure why.  
+
+
 This repository contains **Dockerfile** of [apache-airflow](https://github.com/apache/incubator-airflow) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/puckel/docker-airflow/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ## Informations
