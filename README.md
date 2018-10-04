@@ -13,12 +13,13 @@ I was not able to save my logs to aws S3 for my personal project and added menti
 
 # How to store logs to S3
 
-You can store your credentials to the default ~/.aws/credentials or, you can use Airfloe GUI-> connections -> new connnection, or change the conf file. For me only storing my credentials to the default directory worked not sure why.  
+You can store your credentials to the default ~/.aws/credentials or, you can use Airflow GUI-> connections -> new connnection, or change the conf file. For me only storing my credentials to the default directory worked not sure why.  
 
 
-This repository contains **Dockerfile** of [apache-airflow](https://github.com/apache/incubator-airflow) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/puckel/docker-airflow/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ## Informations
+
+This repository contains **Dockerfile** of [apache-airflow](https://github.com/apache/incubator-airflow) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/puckel/docker-airflow/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 * Based on Python (3.6-slim) official Image [python:3.6-slim](https://hub.docker.com/_/python/) and uses the official [Postgres](https://hub.docker.com/_/postgres/) as backend and [Redis](https://hub.docker.com/_/redis/) as queue
 * Install [Docker](https://www.docker.com/)
